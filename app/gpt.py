@@ -1,6 +1,6 @@
 import openai
 from typing import Optional
-openai.api_key = "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"
+openai.api_key = "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"
 def generate_story_part(prompt: str) -> Optional[str]:
     try:
         response = openai.Completion.create(
